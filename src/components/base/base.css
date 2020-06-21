@@ -1,0 +1,35 @@
+.base{
+  width:100%;
+  margin-bottom:50px;
+}
+.base .base_box{
+  width:80%;
+  min-width:50%;
+  height:100%;
+  margin:0 auto;
+  border:1px solid black;
+  overflow: hidden;
+  border-radius:10px;
+  background-color:rgba(68, 143, 71, 0.479);
+  text-align:left;
+  box-shadow:-1px -1px 10px 1px rgba(155, 87, 87, 0.432),
+  1px 1px 10px 1px rgba(155, 87, 87, 0.432);
+}
+.base .base_box h1{
+  margin-left:20px;
+  margin-bottom:0;
+}
+.base .base_box .content{
+  min-width:300px;
+}
+.base .base_box .content .left span:nth-of-type(1){
+  color:black;
+  font-weight:bold;
+  font-size:18px;
+  margin-left:40px;
+}
+.base .base_box .content .left span:nth-of-type(2){
+  color:rgba(0, 0, 0, 0.7);
+  font-size:18px;
+  margin-left:30px;
+}
